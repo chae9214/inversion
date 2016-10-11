@@ -34,7 +34,7 @@ We think that this simpler, more focused app, will better serve our users.
 ![](https://github.com/csc301-winter-2016/project-team12/blob/master/demo/capture3.png)
 
 ###### Archive Page
-![](https://github.com/csc301-winter-2016/project-team12/blob/master/demo?id=4)
+![](https://github.com/csc301-winter-2016/project-team12/blob/master/demo/capture4.png?id=4)
 
 ###### Stats Page
-![](https://github.com/csc301-winter-2016/project-team12/blob/master/demo?id=5) 
+![](https://github.com/csc301-winter-2016/project-team12/blob/master/demo/capture5.png?id=5)
