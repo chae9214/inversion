@@ -1,0 +1,65 @@
+#:kivy 1.9.1
+#:import C kivy.utils.get_color_from_hex
+
+<GridLayout>:
+    cols: 2
+    spacing: 10
+    row_default_height: (0.715 * (self.width - self.spacing[0]) - self.padding[0])
+    row_force_default: True
+
+<Button>:
+    background_normal: 'images/button_normal.png'
+    background_down: 'images/button_down.png'
+    font_size: 24
+    halign: 'center'
+    markup: True
+
+<Journal>:
+
+    id: journal
+    padding: 15
+
+    Button:
+        id: enter_tasks
+        background_color: C('#3498db')
+        text:
+            ('[font=Modern Pictograms][size=120]'
+            'e[/size][/font]\nEnter Tasks')
+        on_release: app.load_window("enter_tasks")
+
+    GridLayout:
+
+        cols: 1
+
+        Button:
+            id: favorites
+            background_color: C('#16a085')
+            text: '[font=Modern Pictograms][size=80]3[/size][/font]\nMistakes Summary'
+            on_release: app.load_window('favorites')
+
+        GridLayout:
+            Button:
+                id: collection
+                background_color: C('#2ecc71')
+                text: '[font=Modern Pictograms][size=80]B[/size][/font]\nCollection'
+                on_release: app.load_window('collections')
+
+            Button:
+                id: settings
+                background_color: C('#27ae60')
+                text: '[font=Modern Pictograms][size=80]([/size][/font]\nSettings'
+                on_release: app.load_window('settings')
+
+
+
+    Button:
+        id: update_entry
+        background_color: C('#95a5a6')
+        text: '[font=Modern Pictograms][size=120]4[/size][/font]\nView Day'
+        on_release: app.load_window("update_entry")
+
+    Button:
+        id: review_mistakes
+        background_color: C('#e74c3c')
+        text: '[font=Modern Pictograms][size=120]X[/size][/font]\nYesterday\'s Mistakes'
+        on_release: app.load_window("review_mistakes")
