@@ -25,16 +25,16 @@ We think that this simpler, more focused app, will better serve our users.
 ### Product
 
 ###### Main Page
-![](https://github.com/csc301-winter-2016/project-team12/blob/master/demo/capture1.png)
+![](https://github.com/csc301-winter-2016/project-team12/blob/master/demo/capture/capture1.png)
 
 ###### Entry Page
-![](https://github.com/csc301-winter-2016/project-team12/blob/master/demo/capture2.png)
+![](https://github.com/csc301-winter-2016/project-team12/blob/master/demo/capture/capture2.png)
 
 ###### Entry Page (dropdown menu)
-![](https://github.com/csc301-winter-2016/project-team12/blob/master/demo/capture3.png)
+![](https://github.com/csc301-winter-2016/project-team12/blob/master/demo/capture/capture3.png)
 
 ###### Archive Page
-![](https://github.com/csc301-winter-2016/project-team12/blob/master/demo/capture4.png#4)
+![](https://github.com/csc301-winter-2016/project-team12/blob/master/demo/capture/capture4.png)
 
 ###### Stats Page
-![](https://github.com/csc301-winter-2016/project-team12/blob/master/demo/capture5.png#5)
+![](https://github.com/csc301-winter-2016/project-team12/blob/master/demo/capture/capture5.png)
